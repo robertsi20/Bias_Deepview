@@ -1,0 +1,9 @@
+tensorflow[and-cuda]==2.15.*
+tensorflow_hub
+datasets
+tensorflow_text
+jupyter
+chardet
+transformers==4.37.2
+torch==2.0.1
+evaluate
