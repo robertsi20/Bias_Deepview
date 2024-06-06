@@ -79,7 +79,7 @@ if __name__ == "__main__":
     x_val, y_val = bert_glue_encode(preprocessed_dataset["test"], "profession")
 
     pt_embed = pretrained_bert_model()
-    saved_pretrained_classifier_only_path = "/home/robertsi20/PycharmProjects/DeepView_Bias/models/bias_in_bios/bias_in_bios_pretrained_BERT_Classifier"
+    saved_pretrained_classifier_only_path = "<path/to/model>"
     # saved_pretrained_classifier_only_path = './models/' + str(task) + '/{}_pretrained_BERT_Classifier'.format(
     #     task.replace('/', '_'))
 
